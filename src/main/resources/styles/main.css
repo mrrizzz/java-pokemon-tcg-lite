@@ -1,0 +1,40 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.title-label {
+    -fx-text-fill: #2B72B8;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-align: center;
+}
+.welcome-label {
+    -fx-text-fill: #000;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-align: center;
+}
+
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #2B72B8;
+    -fx-border-radius: 3px;
+}
+
+.login-button {
+    -fx-background-color: #E3350D;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #CC2F0C;
+}
+
+/* Untuk panel putih di tengah */
+.white-panel {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+    -fx-background-radius: 5px;
+}

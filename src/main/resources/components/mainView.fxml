@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="app.controller.DashboardController"
+            prefHeight="768.0" prefWidth="1024.0">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <top>
+        <VBox spacing="10">
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Type:"/>
+                <ComboBox fx:id="typeFilter" prefWidth="150"/>
+                <Label text="Search:"/>
+                <TextField fx:id="searchField" prefWidth="200"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Button fx:id="importButton" text="Import Cards"/>
+                <Button fx:id="exportButton" text="Export Filtered"/>
+            </HBox>
+            <Label fx:id="totalCardsLabel" text="Total Cards: 0"/>
+        </VBox>
+    </top>
+
+    <center>
+        <SplitPane dividerPositions="0.7">
+            <TableView fx:id="cardTable" prefHeight="600">
+                <columns>
+                    <TableColumn fx:id="nameColumn" text="Name" prefWidth="150"/>
+                    <TableColumn fx:id="typeColumn" text="Type" prefWidth="100"/>
+                    <TableColumn fx:id="supertypeColumn" text="Supertype" prefWidth="100"/>
+                    <TableColumn fx:id="subtypeColumn" text="Subtype" prefWidth="100"/>
+                </columns>
+            </TableView>
+            <VBox alignment="CENTER">
+                <ImageView fx:id="cardPreview" fitHeight="400" fitWidth="300" preserveRatio="true"/>
+            </VBox>
+        </SplitPane>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" alignment="CENTER_RIGHT">
+            <padding>
+                <Insets top="10"/>
+            </padding>
+            <Label text="Selected cards will be limited to:"/>
+            <Label text="• 100 Pokemon per type (including evolution chains)"/>
+            <Label text="• 20 Trainer cards"/>
+            <Label text="• 20 Item cards"/>
+            <Label text="• All Energy cards"/>
+        </HBox>
+    </bottom>
+</BorderPane>
