@@ -1,9 +1,8 @@
 // CreateDeckController.java
 package app.controller;
 
-import app.PokemonCard;
+import app.model.PokemonCard;
 import javafx.fxml.FXML;
-import javafx.scene.layout.GridPane;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;

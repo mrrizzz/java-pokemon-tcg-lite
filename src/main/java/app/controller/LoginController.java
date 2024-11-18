@@ -1,7 +1,7 @@
 package app.controller;
 
-import app.User;
-import app.UserManager;
+import app.model.User;
+import app.model.UserManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -19,8 +19,6 @@ public class LoginController {
     @FXML
     public TextField usernameField;
 
-//    private String username = usernameField.getText();
-
     @FXML
     public void handleLogin(ActionEvent event) {
         User currentUser = new User();
@@ -28,14 +26,13 @@ public class LoginController {
         System.out.println(username);
         try
         {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/components/dashboard.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/dashboard.fxml"));
             Parent dashboardRoot = loader.load();
             DashboardController dashboardController = loader.getController();
 
             currentUser.setUsername(username);
             System.out.println(currentUser.getUsername());
 
-//            UserManager.getInstance().login(username);
             UserManager.getInstance().setCurrentUser(currentUser);
             dashboardController.sayHello();
 

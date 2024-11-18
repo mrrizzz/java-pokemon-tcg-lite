@@ -1,5 +1,5 @@
 // UserManager.java
-package app;
+package app.model;
 
 public class UserManager {
     private static UserManager instance;

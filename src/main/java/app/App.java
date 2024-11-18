@@ -1,5 +1,7 @@
 package app;
 
+import app.model.User;
+import app.model.UserManager;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,8 +9,6 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import java.io.IOException;
-import app.User;
-import app.UserManager;
 
 
 public class App extends Application {
@@ -16,7 +16,7 @@ public class App extends Application {
     public void start(Stage stage)  {
         UserManager.getInstance().setCurrentUser(new User());
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/components/loginPage.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/loginPage.fxml"));
             Parent loginRoot = loader.load();
 
             Scene scene = new Scene(loginRoot);

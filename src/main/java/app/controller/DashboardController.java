@@ -1,6 +1,6 @@
 package app.controller;
 
-import app.UserManager;
+import app.model.UserManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -23,7 +23,7 @@ public class DashboardController {
 
     @FXML
     public void handleCreateDeckButton(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/components/create-deck.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/create-deck.fxml"));
         Parent dashboardRoot = loader.load();
 
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();

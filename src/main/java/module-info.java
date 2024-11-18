@@ -9,6 +9,10 @@ module POKEMON.TCG.LITE {
 
     exports app;
     opens app to javafx.fxml;
+
     exports app.controller;
     opens app.controller to javafx.fxml;
+
+    exports app.model;
+    opens app.model to javafx.fxml;
 }
