@@ -7,11 +7,16 @@ import app.model.User;
 import app.utils.CardLoader;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.ListCell;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ListView;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 
+import java.io.File;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Path;
@@ -45,6 +50,90 @@ public class CreateDeckController {
             List<PokemonCard> cards = CardLoader.loadPokemonCardsFromJson(path.toString());
             availableCardList.addAll(cards);
 
+            availableCards.setCellFactory(pokemonCardListView -> new ListCell<PokemonCard>(){
+                private ImageView imageView = new ImageView();
+
+                @Override
+                protected void updateItem(PokemonCard card, boolean empty){
+                    super.updateItem(card, empty);
+
+                    if (empty || card == null){
+                        setText(null);
+                        setGraphic(null);
+                    }
+
+                    else {
+                        setText(card.getName() + "(" + card.getSubtypes() + ")");
+                        try {
+                            String imageUrl = card.getImageUrl();
+                            URL resourceUrl = getClass().getResource(imageUrl);
+                            System.out.println("Image URL: " + imageUrl);
+                            System.out.println("Resource URL: " + resourceUrl);
+                            File resourceFile = new File(resourceUrl.toURI());
+                            System.out.println("Absolute path: " + resourceFile.getAbsolutePath());
+                            System.out.println("File exists: " + resourceFile.exists());
+
+                            if (resourceUrl == null) {
+                                System.out.println("Resource tidak ditemukan: " + imageUrl);
+                                setGraphic(null);
+                                return;
+                            }
+
+                            Image image = new Image(resourceUrl.toString());
+                            imageView.setImage(image);
+                            imageView.setFitHeight(140);
+                            imageView.setFitWidth(100);
+                            setGraphic(imageView);
+                        } catch (Exception e) {
+                            setGraphic(null);
+                            throw new RuntimeException(e);
+                        }
+                    }
+                }
+            });
+
+            selectedCards.setCellFactory(pokemonCardListView -> new ListCell<PokemonCard>(){
+                private ImageView imageView = new ImageView();
+
+                @Override
+                protected void updateItem(PokemonCard card, boolean empty){
+                    super.updateItem(card, empty);
+
+                    if (empty || card == null){
+                        setText(null);
+                        setGraphic(null);
+                    }
+
+                    else {
+                        setText(card.getName() + "(" + card.getSubtypes() + ")");
+                        try {
+                            String imageUrl = card.getImageUrl();
+                            URL resourceUrl = getClass().getResource(imageUrl);
+                            System.out.println("Image URL: " + imageUrl);
+                            System.out.println("Resource URL: " + resourceUrl);
+                            File resourceFile = new File(resourceUrl.toURI());
+                            System.out.println("Absolute path: " + resourceFile.getAbsolutePath());
+                            System.out.println("File exists: " + resourceFile.exists());
+
+                            if (resourceUrl == null) {
+                                System.out.println("Resource tidak ditemukan: " + imageUrl);
+                                setGraphic(null);
+                                return;
+                            }
+
+                            Image image = new Image(resourceUrl.toString());
+                            imageView.setImage(image);
+                            imageView.setFitHeight(140);
+                            imageView.setFitWidth(100);
+                            setGraphic(imageView);
+                        } catch (Exception e) {
+                            setGraphic(null);
+                            throw new RuntimeException(e);
+                        }
+                    }
+                }
+            });
+
             availableCards.setItems(availableCardList);
             selectedCards.setItems(selectedCardList);
         } catch (URISyntaxException e) {
@@ -76,7 +165,7 @@ public class CreateDeckController {
     }
 
     @FXML
-    private void handleSaveDeck() {
+    private void handleSaveDeck(ActionEvent event) {
         String deckname = deckNameField.getText();
 
         if (deckname.isEmpty()){
@@ -101,6 +190,7 @@ public class CreateDeckController {
             selectedCardList.clear();
             availableCardList.addAll(selectedCards.getItems());
         }
+
     }
     private void showAlert(String title, String content) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);

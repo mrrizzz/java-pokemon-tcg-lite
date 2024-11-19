@@ -727,42 +727,6 @@
     "image": "https://images.pokemontcg.io/sm12/182_hires.png"
   },
   {
-    "id": "sm12-183",
-    "name": "Type: Null",
-    "supertype": "Pokémon",
-    "subtypes": [
-      "Basic"
-    ],
-    "hp": "110",
-    "types": [
-      "Colorless"
-    ],
-    "attacks": [
-      {
-        "name": "Air Slash",
-        "cost": [
-          "Colorless",
-          "Colorless"
-        ],
-        "damage": "50",
-        "text": "Discard an Energy from this Pokémon."
-      }
-    ],
-    "weaknesses": [
-      {
-        "type": "Fighting",
-        "value": "�-2"
-      }
-    ],
-    "retreatCost": [
-      "Colorless",
-      "Colorless"
-    ],
-    "rarity": "Uncommon",
-    "number": "183",
-    "image": "https://images.pokemontcg.io/sm12/183_hires.png"
-  },
-  {
     "id": "sm12-184",
     "name": "Silvally-GX",
     "supertype": "Pokémon",
