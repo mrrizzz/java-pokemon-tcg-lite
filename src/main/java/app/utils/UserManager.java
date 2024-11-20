@@ -1,5 +1,6 @@
-// UserManager.java
-package app.model;
+package app.utils;
+
+import app.model.User;
 
 public class UserManager {
     private static UserManager instance;

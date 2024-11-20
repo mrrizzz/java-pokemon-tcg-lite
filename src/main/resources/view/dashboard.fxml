@@ -18,7 +18,7 @@
       </font>
    </Label>
    <Button layoutX="139.0" layoutY="407.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" styleClass="login-button" stylesheets="@../styles/main.css" text="Create Deck" onAction="#handleCreateDeckButton"/>
-   <Button layoutX="378.0" layoutY="408.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="110.0" styleClass="login-button" stylesheets="@../styles/main.css" text="View Collection" />
+   <Button layoutX="378.0" layoutY="408.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="110.0" styleClass="login-button" stylesheets="@../styles/main.css" text="View Decks" onAction="#handleViewDecksButton"/>
    <Button layoutX="634.0" layoutY="408.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" styleClass="login-button" stylesheets="@../styles/main.css" text="Versus Match" />
    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="119.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
       <image>

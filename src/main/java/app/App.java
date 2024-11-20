@@ -1,7 +1,7 @@
 package app;
 
 import app.model.User;
-import app.model.UserManager;
+import app.utils.UserManager;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

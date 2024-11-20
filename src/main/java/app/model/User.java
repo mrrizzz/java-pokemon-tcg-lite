@@ -8,7 +8,6 @@ public class User {
     private List<Deck> decks;
 
     public User(){
-        this.username = "user";
         this.decks = new ArrayList<>();
     }
 
@@ -17,7 +16,7 @@ public class User {
     }
 
     public String getUsername(){
-        return  this.username;
+        return this.username;
     }
 
     public List<Deck> getDecks(){
