@@ -20,7 +20,6 @@ public class PokemonCard {
         this.hp = hp;
     }
 
-    // Getters
     public String getId() { return id; }
     public String getName() { return name; }
     public String getSupertype() { return supertype; }
@@ -28,22 +27,4 @@ public class PokemonCard {
     public String getTypes() { return types; }
     public String getImageUrl() { return imageUrl; }
     public int getHp() { return hp; }
-
-    @Override
-    public String toString() {
-        return String.format("%s (%s) - HP: %d", name, types.isEmpty() ? "No Type" : types, hp);
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        PokemonCard that = (PokemonCard) o;
-        return id.equals(that.id);
-    }
-
-    @Override
-    public int hashCode() {
-        return id.hashCode();
-    }
 }
