@@ -12,8 +12,6 @@ public class Deck {
         this.cards = new ArrayList<>();
     }
 
-
-
     public String getName() {
         return this.name;
     }
@@ -32,10 +30,6 @@ public class Deck {
 
     public void addCards(PokemonCard card){
         this.cards.add(card);
-    }
-
-    public void  removeCards(PokemonCard card){
-        this.cards.remove(card);
     }
 }
 

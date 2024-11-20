@@ -22,8 +22,8 @@ public abstract class BaseController {
             stage.show();
 
             Object controller = loader.getController();
-            if (controller instanceof initByFXMLRunTime) {
-                ((initByFXMLRunTime) controller).onNavigatedTo();
+            if (controller instanceof PostFXMLInitialization) {
+                ((PostFXMLInitialization) controller).onNavigatedTo();
             }
             return controller;
         } catch (IOException e) {

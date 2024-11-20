@@ -1,5 +1,5 @@
 package app.controller;
 
-public interface initByFXMLRunTime {
+public interface PostFXMLInitialization {
     void onNavigatedTo();
 }

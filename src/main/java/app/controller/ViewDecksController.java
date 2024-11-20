@@ -14,7 +14,7 @@ import javafx.scene.control.ListView;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ViewDecksController extends BaseController implements initByFXMLRunTime {
+public class ViewDecksController extends BaseController implements PostFXMLInitialization {
     @FXML
     private ListView<String> availableDecksListView;
     private ObservableList<String> availableDeckList;
@@ -49,7 +49,7 @@ public class ViewDecksController extends BaseController implements initByFXMLRun
         }
 
         try {
-            DeckDetailsController controller = (DeckDetailsController)
+            ViewDeckDetailsController controller = (ViewDeckDetailsController)
                     navigateToView(ViewManager.DECK_DETAILS_VIEW, event);
             controller.setDeck(selectedDeck);
         } catch (Exception e) {

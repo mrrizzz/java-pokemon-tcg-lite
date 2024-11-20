@@ -11,7 +11,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 
-public class DeckDetailsController extends BaseController {
+public class ViewDeckDetailsController extends BaseController {
     @FXML
     private Label deckTitle;
     @FXML
