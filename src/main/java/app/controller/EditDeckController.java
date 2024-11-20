@@ -13,15 +13,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ListCell;
-import javafx.scene.control.TextField;
-import javafx.scene.control.ListView;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -29,7 +25,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class CreateDeckController {
+public class EditDeckController {
+    private Deck deck;
+
+    private List<PokemonCard> alreadySelectedCards;
+
     @FXML
     private TextField deckNameField;
     @FXML
@@ -40,10 +40,20 @@ public class CreateDeckController {
     private ObservableList<PokemonCard> availableCardList;
     private ObservableList<PokemonCard> selectedCardList;
 
-    @FXML
+    public void setDeck(Deck deck){
+        this.deck = deck;
+        deckNameField.setText(deck.getName());
+        alreadySelectedCards = deck.getCards();
+
+        initialize();
+    }
+
     private void initialize() {
         availableCardList = FXCollections.observableArrayList();
         selectedCardList = FXCollections.observableArrayList();
+
+
+//        selectedCardList.addAll(deck.getCards());
         try {
             URL resourceUrl = getClass().getResource("/data/pokemondata.json");
 
@@ -129,6 +139,8 @@ public class CreateDeckController {
                     }
                 }
             });
+            selectedCardList.addAll(alreadySelectedCards);
+            availableCardList.removeAll(alreadySelectedCards);
 
             availableCardsListView.setItems(availableCardList);
             selectedCardsListView.setItems(selectedCardList);
@@ -174,7 +186,7 @@ public class CreateDeckController {
             return;
         }
 
-        Deck newDeck = new Deck(deckname);
+        Deck newDeck = deck;
         for(PokemonCard card : selectedCardList){
             newDeck.addCards(card);
         }
@@ -183,10 +195,8 @@ public class CreateDeckController {
         User currentUser = UserManager.getInstance().getCurrentUser();
 
         if (currentUser != null){
-            currentUser.addDeck(newDeck);
             showAlert("Success", "Deck tersimpan");
 
-            deckNameField.clear();
             selectedCardList.clear();
             availableCardList.addAll(selectedCardsListView.getItems());
         }
