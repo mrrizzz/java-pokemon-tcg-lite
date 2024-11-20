@@ -1,86 +1,42 @@
+// Refactored DashboardController
 package app.controller;
 
 import app.model.User;
 import app.utils.UserManager;
+import app.utils.ViewManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
 
-import java.io.IOException;
-
-public class DashboardController {
-
+public class DashboardController extends BaseController implements NavigationAware {
     @FXML
     private Label welcomeLabel;
 
-    @FXML
-    private void initialize(){
-        try {
-            sayHello();
-        } catch (Exception e) {
-            showError("Error initializing dashboard: " + e.getMessage());
-        }
+    @Override
+    public void onNavigatedTo() {
+        sayHello();
     }
 
     private void sayHello() {
         User currentUser = UserManager.getInstance().getCurrentUser();
-        if (currentUser != null) {
-            System.out.println("sayhello " + currentUser.getUsername());
-            welcomeLabel.setText("Hello, " + currentUser.getUsername() + "!");
-        } else {
-            welcomeLabel.setText("Hello, Guest!");
-        }
+        welcomeLabel.setText(currentUser != null
+                ? "Hello, " + currentUser.getUsername() + "!"
+                : "Hello, Guest!");
     }
+
     @FXML
-    public void handleCreateDeckButton(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/createDeck.fxml"));
-        Parent dashboardRoot = loader.load();
-
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-        Scene scene = new Scene(dashboardRoot);
-        stage.setScene(scene);
-        stage.show();
+    public void handleCreateDeckButton(ActionEvent event) {
+        navigateToView(ViewManager.CREATE_DECK_VIEW, event);
     }
 
+    @FXML
     public void handleViewDecksButton(ActionEvent event) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/viewDecks.fxml"));
-        try{
-            Parent dashboardRoot = loader.load();
-
-            Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-            Scene scene = new Scene(dashboardRoot);
-            stage.setScene(scene);
-            stage.show();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        navigateToView(ViewManager.VIEW_DECKS_VIEW, event);
     }
 
-    private void showError(String message) {
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("Error");
-        alert.setHeaderText(null);
-        alert.setContentText(message);
-        alert.showAndWait();
-    }
-
-    private void showAlert(String title, String content) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle(title);
-        alert.setHeaderText(null);
-        alert.setContentText(content);
-        alert.showAndWait();
-    }
-
-    public void handleVersusButton(ActionEvent event) {
-        showAlert("Mohon Maaf Fitur Ini Belum Tersedia", "Fitur ini seharusnya ada jika deadline yang diberikan lebih dari 1 minggu 🙏");
+    @FXML
+    public void handleVersusButton() {
+        showInfo("Feature Not Available",
+                "This feature would be available if the deadline was longer than a week 🙏");
     }
 }

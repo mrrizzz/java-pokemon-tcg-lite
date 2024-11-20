@@ -1,141 +1,86 @@
+// ViewDecksController.java
 package app.controller;
 
 import app.model.Deck;
-import app.model.PokemonCard;
 import app.model.User;
 import app.utils.UserManager;
+import app.utils.ViewManager;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
-import javafx.stage.Stage;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class ViewDecksController {
+public class ViewDecksController extends BaseController implements NavigationAware {
     @FXML
     private ListView<String> availableDecksListView;
-
     private ObservableList<String> availableDeckList;
 
-    @FXML
-    private void initialize() {
+    @Override
+    public void onNavigatedTo() {
+        loadDecks();
+    }
+
+    private void loadDecks() {
         User user = UserManager.getInstance().getCurrentUser();
-        System.out.println("ini nami dari viewdeck" + user.getUsername());
         List<Deck> decks = user.getDecks();
-        availableDeckList = FXCollections.observableArrayList();
 
+        availableDeckList = FXCollections.observableArrayList(
+                decks.stream()
+                        .map(Deck::getName)
+                        .collect(Collectors.toList())
+        );
 
-        List<String> decktitles = new ArrayList<>();
-        for (Deck deck : decks){
-            System.out.println(deck.getName());
-            decktitles.add(deck.getName());
-        }
-        availableDeckList.addAll(decktitles);
         availableDecksListView.setItems(availableDeckList);
-        // Load and display all cards in the collection
     }
 
+    @FXML
     public void handleViewDeckDetails(ActionEvent event) {
-        String selected = availableDecksListView.getSelectionModel()
-                .getSelectedItem();
-        if (selected != null) {
-            Deck viewDetails = null;
-            User user = UserManager.getInstance().getCurrentUser();
+        String selected = availableDecksListView.getSelectionModel().getSelectedItem();
+        if (selected == null) return;
 
-            List<Deck> decks = user.getDecks();
-            for (Deck deck : decks) {
-                if (deck.getName().equals(selected)) {
-                    viewDetails = deck;
-                    break;
-                }
-            }
+        Deck selectedDeck = findDeckByName(selected);
+        if (selectedDeck == null) {
+            showError("Error", "Selected deck not found");
+            return;
+        }
 
-            if (viewDetails == null) {
-                showAlert("Error", "Selected deck not found");
-                return;
-            }
-
-            try
-            {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/viewDeckDetails.fxml"));
-                Parent dashboardRoot = loader.load();
-
-                DeckDetailsController deckDetailsController = loader.getController();
-                deckDetailsController.setDeck(viewDetails);
-
-                Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-                Scene scene = new Scene(dashboardRoot);
-                stage.setScene(scene);
-                stage.show();
-            } catch (IOException e) {
-                showAlert("Error loading FXML: ", e.getMessage());
-                System.err.println("Error loading FXML: " + e.getMessage());
-            }
+        try {
+            DeckDetailsController controller = (DeckDetailsController)
+                    navigateToView(ViewManager.DECK_DETAILS_VIEW, event);
+            controller.setDeck(selectedDeck);
+        } catch (Exception e) {
+            showError("Navigation Error", "Error viewing deck details: " + e.getMessage());
         }
     }
 
-    public void handleDeleteDeck(ActionEvent event) {
-        String selected = availableDecksListView.getSelectionModel()
-                .getSelectedItem();
-        if (selected != null){
-            Deck toRemove = null;
+    private Deck findDeckByName(String deckName) {
+        User user = UserManager.getInstance().getCurrentUser();
+        return user.getDecks().stream()
+                .filter(deck -> deck.getName().equals(deckName))
+                .findFirst()
+                .orElse(null);
+    }
+
+    @FXML
+    public void handleDeleteDeck() {
+        String selected = availableDecksListView.getSelectionModel().getSelectedItem();
+        if (selected == null) return;
+
+        Deck deckToRemove = findDeckByName(selected);
+        if (deckToRemove != null) {
             User user = UserManager.getInstance().getCurrentUser();
-
-            List<Deck> decks = user.getDecks();
-            for (Deck deck : decks){
-                if (deck.getName().equals(selected)){
-                    toRemove = deck;
-                    break;
-                }
-            }
-
-            if (toRemove != null){
-                user.removeDeck(toRemove);
-                availableDeckList.remove(selected);
-                showAlert("SUccess", selected + "Deck deleted successfully");
-            }
+            user.removeDeck(deckToRemove);
+            availableDeckList.remove(selected);
+            showInfo("Success", selected + " deck deleted successfully");
         }
     }
 
+    @FXML
     public void handleBackToDashboard(ActionEvent event) {
-        try
-        {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/dashboard.fxml"));
-            Parent dashboardRoot = loader.load();
-
-            Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-            Scene scene = new Scene(dashboardRoot);
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            System.err.println("Error loading FXML: " + e.getMessage());
-        }
-    }
-
-    private void showAlert(String title, String content) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle(title);
-        alert.setHeaderText(null);
-        alert.setContentText(content);
-        alert.showAndWait();
-    }
-
-    private void showError(String message) {
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("Error");
-        alert.setHeaderText(null);
-        alert.setContentText(message);
-        alert.showAndWait();
+        navigateToView(ViewManager.DASHBOARD_VIEW, event);
     }
 }

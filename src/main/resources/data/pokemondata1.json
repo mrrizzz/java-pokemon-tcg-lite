@@ -2,7 +2,7 @@
     {
         "id": "sm12-165",
         "name": "Mega Lopunny & Jigglypuff-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -21,7 +21,7 @@
                     "Colorless"
                 ],
                 "damage": "60+",
-                "text": "This attack does 60 more damage for each of your opponent's Pokemon-GX and Pokemon-EX in play."
+                "text": "This attack does 60 more damage for each of your opponent's Pok\u00e9mon-GX and Pok\u00e9mon-EX in play."
             },
             {
                 "name": "Puffy Smashers-GX",
@@ -29,7 +29,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Asleep. If this Pokemon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) (You can't use more than 1 GX attack in a game.)"
+                "text": "Your opponent's Active Pok\u00e9mon is now Asleep. If this Pok\u00e9mon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -48,7 +48,7 @@
     {
         "id": "sm12-166",
         "name": "Eevee",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -91,7 +91,7 @@
     {
         "id": "sm12-168",
         "name": "Igglybuff",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -108,7 +108,7 @@
     {
         "id": "sm12-169",
         "name": "Aipom",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -143,7 +143,7 @@
     {
         "id": "sm12-170",
         "name": "Ambipom",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -186,7 +186,7 @@
     {
         "id": "sm12-171",
         "name": "Teddiursa",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -229,7 +229,7 @@
     {
         "id": "sm12-172",
         "name": "Ursaring",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -256,7 +256,7 @@
                     "Colorless"
                 ],
                 "damage": "120",
-                "text": "The Defending Pokemon can't attack during your opponent's next turn."
+                "text": "The Defending Pok\u00e9mon can't attack during your opponent's next turn."
             }
         ],
         "weaknesses": [
@@ -277,7 +277,7 @@
     {
         "id": "sm12-173",
         "name": "Zangoose",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -301,7 +301,7 @@
                     "Colorless"
                 ],
                 "damage": "20+",
-                "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokemon."
+                "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -320,7 +320,7 @@
     {
         "id": "sm12-174",
         "name": "Lillipup",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -335,7 +335,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "The Defending Pokemon can't retreat during your opponent's next turn."
+                "text": "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
             },
             {
                 "name": "Tackle",
@@ -364,7 +364,7 @@
     {
         "id": "sm12-175",
         "name": "Herdier",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -379,7 +379,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "During your next turn, this Pokemon's attacks do 60 more damage to your opponent's Active Pokemon (before applying Weakness and Resistance)."
+                "text": "During your next turn, this Pok\u00e9mon's attacks do 60 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
             },
             {
                 "name": "Headbutt Bounce",
@@ -409,7 +409,7 @@
     {
         "id": "sm12-176",
         "name": "Stoutland",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -426,7 +426,7 @@
                     "Colorless"
                 ],
                 "damage": "110",
-                "text": "This attack does 30 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -447,7 +447,7 @@
     {
         "id": "sm12-177",
         "name": "Rufflet",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -481,7 +481,7 @@
     {
         "id": "sm12-178",
         "name": "Braviary",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -496,7 +496,7 @@
                     "Colorless"
                 ],
                 "damage": "30",
-                "text": "The Defending Pokemon can't retreat during your opponent's next turn."
+                "text": "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
             },
             {
                 "name": "Aero Fall",
@@ -507,7 +507,7 @@
                     "Colorless"
                 ],
                 "damage": "140",
-                "text": "Discard 2 Energy from this Pokemon."
+                "text": "Discard 2 Energy from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -526,7 +526,7 @@
     {
         "id": "sm12-179",
         "name": "Helioptile",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -541,7 +541,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Flip a coin. If heads, the Defending Pokemon can't attack during your opponent's next turn."
+                "text": "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn."
             },
             {
                 "name": "Rear Kick",
@@ -570,7 +570,7 @@
     {
         "id": "sm12-180",
         "name": "Heliolisk",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -585,7 +585,7 @@
                     "Colorless"
                 ],
                 "damage": "30+",
-                "text": "If your opponent has any Lightning Pokemon in play, this attack does 90 more damage."
+                "text": "If your opponent has any Lightning Pok\u00e9mon in play, this attack does 90 more damage."
             },
             {
                 "name": "Zap Kick",
@@ -614,7 +614,7 @@
     {
         "id": "sm12-181",
         "name": "Stufful",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -650,7 +650,7 @@
     {
         "id": "sm12-182",
         "name": "Bewear",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -687,7 +687,7 @@
     {
         "id": "sm12-184",
         "name": "Silvally-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1",
             "GX"
@@ -713,7 +713,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "If your opponent's Active Pokemon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game.)"
+                "text": "If your opponent's Active Pok\u00e9mon is an Ultra Beast, it is Knocked Out. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -733,7 +733,7 @@
     {
         "id": "sm12-38",
         "name": "Blastoise & Piplup-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -752,7 +752,7 @@
                     "Colorless"
                 ],
                 "damage": "150",
-                "text": "You may attach up to 3 Water Energy cards from your hand to your Pokemon in any way you like. If you do, heal 50 damage from those Pokemon for each card you attached to them in this way."
+                "text": "You may attach up to 3 Water Energy cards from your hand to your Pok\u00e9mon in any way you like. If you do, heal 50 damage from those Pok\u00e9mon for each card you attached to them in this way."
             },
             {
                 "name": "Bubble Launcher-GX",
@@ -762,7 +762,7 @@
                     "Colorless"
                 ],
                 "damage": "100+",
-                "text": "Your opponent's Active Pokemon is now Paralyzed. If this Pokemon has at least 3 extra Water Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)"
+                "text": "Your opponent's Active Pok\u00e9mon is now Paralyzed. If this Pok\u00e9mon has at least 3 extra Water Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -783,7 +783,7 @@
     {
         "id": "sm12-39",
         "name": "Alolan Vulpix",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -815,7 +815,7 @@
     {
         "id": "sm12-40",
         "name": "Psyduck",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -839,7 +839,7 @@
                     "Colorless"
                 ],
                 "damage": "20",
-                "text": "Both Active Pokemon are now Confused."
+                "text": "Both Active Pok\u00e9mon are now Confused."
             }
         ],
         "weaknesses": [
@@ -858,7 +858,7 @@
     {
         "id": "sm12-41",
         "name": "Golduck",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -882,7 +882,7 @@
                     "Colorless"
                 ],
                 "damage": "80",
-                "text": "Put an Energy attached to this Pokemon into your hand."
+                "text": "Put an Energy attached to this Pok\u00e9mon into your hand."
             }
         ],
         "weaknesses": [
@@ -901,7 +901,7 @@
     {
         "id": "sm12-42",
         "name": "Vaporeon",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -918,7 +918,7 @@
                     "Colorless"
                 ],
                 "damage": "60",
-                "text": "Heal 30 damage from each of your Pokemon."
+                "text": "Heal 30 damage from each of your Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -938,7 +938,7 @@
     {
         "id": "sm12-43",
         "name": "Sneasel",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -953,7 +953,7 @@
                     "Darkness"
                 ],
                 "damage": "10",
-                "text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokemon during your opponent's next turn."
+                "text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn."
             }
         ],
         "weaknesses": [
@@ -972,7 +972,7 @@
     {
         "id": "sm12-44",
         "name": "Weavile",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1013,7 +1013,7 @@
     {
         "id": "sm12-45",
         "name": "Wailmer",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1050,7 +1050,7 @@
     {
         "id": "sm12-46",
         "name": "Wailord",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1100,7 +1100,7 @@
     {
         "id": "sm12-47",
         "name": "Snorunt",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1135,7 +1135,7 @@
     {
         "id": "sm12-48",
         "name": "Glalie",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1150,7 +1150,7 @@
                     "Water"
                 ],
                 "damage": "30",
-                "text": "Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed, and discard an Energy from that Pokemon."
+                "text": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed, and discard an Energy from that Pok\u00e9mon."
             },
             {
                 "name": "Frosty Typhoon",
@@ -1160,7 +1160,7 @@
                     "Colorless"
                 ],
                 "damage": "120",
-                "text": "This Pokemon can't use Frosty Typhoon during your next turn."
+                "text": "This Pok\u00e9mon can't use Frosty Typhoon during your next turn."
             }
         ],
         "weaknesses": [
@@ -1181,7 +1181,7 @@
     {
         "id": "sm12-49",
         "name": "Spheal",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1225,7 +1225,7 @@
     {
         "id": "sm12-51",
         "name": "Sealeo",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1272,7 +1272,7 @@
     {
         "id": "sm12-52",
         "name": "Walrein",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -1287,7 +1287,7 @@
                     "Water"
                 ],
                 "damage": "60",
-                "text": "Your opponent can't play any Trainer cards from their hand during their next turn. If 1 of your Pokemon used Cold Snap during your last turn, this attack can't be used."
+                "text": "Your opponent can't play any Trainer cards from their hand during their next turn. If 1 of your Pok\u00e9mon used Cold Snap during your last turn, this attack can't be used."
             },
             {
                 "name": "Blizzard",
@@ -1298,7 +1298,7 @@
                     "Colorless"
                 ],
                 "damage": "120",
-                "text": "This attack does 10 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 10 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -1320,7 +1320,7 @@
     {
         "id": "sm12-53",
         "name": "Kyogre",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1335,7 +1335,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Attach 2 Water Energy cards from your discard pile to 1 of your Pokemon."
+                "text": "Attach 2 Water Energy cards from your discard pile to 1 of your Pok\u00e9mon."
             },
             {
                 "name": "Swirling Waves",
@@ -1346,7 +1346,7 @@
                     "Colorless"
                 ],
                 "damage": "130",
-                "text": "Discard an Energy from this Pokemon."
+                "text": "Discard an Energy from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -1367,7 +1367,7 @@
     {
         "id": "sm12-54",
         "name": "Piplup",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1384,7 +1384,7 @@
                     "Water"
                 ],
                 "damage": "80",
-                "text": "If the Defending Pokemon is a Basic Pokemon, it can't attack during your opponent's next turn."
+                "text": "If the Defending Pok\u00e9mon is a Basic Pok\u00e9mon, it can't attack during your opponent's next turn."
             }
         ],
         "weaknesses": [
@@ -1403,7 +1403,7 @@
     {
         "id": "sm12-55",
         "name": "Prinplup",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1428,7 +1428,7 @@
                     "Water"
                 ],
                 "damage": "",
-                "text": "Discard all Energy from this Pokemon. This attack does 100 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "Discard all Energy from this Pok\u00e9mon. This attack does 100 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -1448,7 +1448,7 @@
     {
         "id": "sm12-56",
         "name": "Empoleon",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -1463,7 +1463,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Choose an attack from 1 of this Pokemon's previous Evolutions and use it as this attack."
+                "text": "Choose an attack from 1 of this Pok\u00e9mon's previous Evolutions and use it as this attack."
             },
             {
                 "name": "Aquafall",
@@ -1472,7 +1472,7 @@
                     "Colorless"
                 ],
                 "damage": "130",
-                "text": "Discard all Energy from this Pokemon."
+                "text": "Discard all Energy from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -1492,7 +1492,7 @@
     {
         "id": "sm12-57",
         "name": "Phione",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1526,7 +1526,7 @@
     {
         "id": "sm12-58",
         "name": "Tympole",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1560,7 +1560,7 @@
     {
         "id": "sm12-59",
         "name": "Ducklett",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1595,7 +1595,7 @@
     {
         "id": "sm12-60",
         "name": "Swanna",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1610,7 +1610,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Attach an Energy card from your hand to 1 of your Pokemon."
+                "text": "Attach an Energy card from your hand to 1 of your Pok\u00e9mon."
             },
             {
                 "name": "Air Slash",
@@ -1619,7 +1619,7 @@
                     "Colorless"
                 ],
                 "damage": "70",
-                "text": "Discard an Energy from this Pokemon."
+                "text": "Discard an Energy from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -1638,7 +1638,7 @@
     {
         "id": "sm12-61",
         "name": "Black Kyurem",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1654,7 +1654,7 @@
                     "Colorless"
                 ],
                 "damage": "30",
-                "text": "Discard a Special Energy from your opponent's Active Pokemon."
+                "text": "Discard a Special Energy from your opponent's Active Pok\u00e9mon."
             },
             {
                 "name": "Dazzling Blizzard",
@@ -1686,7 +1686,7 @@
     {
         "id": "sm12-62",
         "name": "Wishiwashi",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1724,7 +1724,7 @@
     {
         "id": "sm12-63",
         "name": "Wishiwashi-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "GX"
@@ -1749,7 +1749,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Look at the top 12 cards of your deck and put any number of Basic Pokemon you find there onto your Bench. Shuffle the other cards back into your deck. (You can't use more than 1 GX attack in a game.)"
+                "text": "Look at the top 12 cards of your deck and put any number of Basic Pok\u00e9mon you find there onto your Bench. Shuffle the other cards back into your deck. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -1768,7 +1768,7 @@
     {
         "id": "sm12-64",
         "name": "Dewpider",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1813,7 +1813,7 @@
     {
         "id": "sm12-65",
         "name": "Araquanid",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1839,7 +1839,7 @@
                     "Colorless"
                 ],
                 "damage": "80",
-                "text": "During your next turn, the Defending Pokemon takes 60 more damage from attacks (after applying Weakness and Resistance)."
+                "text": "During your next turn, the Defending Pok\u00e9mon takes 60 more damage from attacks (after applying Weakness and Resistance)."
             }
         ],
         "weaknesses": [
@@ -1859,7 +1859,7 @@
     {
         "id": "sm12-22",
         "name": "Charizard & Braixen-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -1887,7 +1887,7 @@
                     "Fire"
                 ],
                 "damage": "",
-                "text": "Attach 5 basic Energy cards from your discard pile to your Pokemon in any way you like. If this Pokemon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pokemon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)"
+                "text": "Attach 5 basic Energy cards from your discard pile to your Pok\u00e9mon in any way you like. If this Pok\u00e9mon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pok\u00e9mon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -1908,7 +1908,7 @@
     {
         "id": "sm12-23",
         "name": "Ponyta",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -1950,7 +1950,7 @@
     {
         "id": "sm12-24",
         "name": "Rapidash",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -1965,7 +1965,7 @@
                     "Fire"
                 ],
                 "damage": "30",
-                "text": "This attack does 30 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             },
             {
                 "name": "Flame Tail",
@@ -1990,7 +1990,7 @@
     {
         "id": "sm12-25",
         "name": "Flareon",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -2007,7 +2007,7 @@
                     "Colorless"
                 ],
                 "damage": "90",
-                "text": "Discard an Energy from this Pokemon."
+                "text": "Discard an Energy from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -2027,7 +2027,7 @@
     {
         "id": "sm12-26",
         "name": "Slugma",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2042,7 +2042,7 @@
                     "Fire"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Burned."
+                "text": "Your opponent's Active Pok\u00e9mon is now Burned."
             }
         ],
         "weaknesses": [
@@ -2063,7 +2063,7 @@
     {
         "id": "sm12-27",
         "name": "Magcargo",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -2087,7 +2087,7 @@
                     "Colorless"
                 ],
                 "damage": "80",
-                "text": "Discard an Energy from this Pokemon."
+                "text": "Discard an Energy from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -2108,7 +2108,7 @@
     {
         "id": "sm12-28",
         "name": "Entei",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2124,7 +2124,7 @@
                     "Colorless"
                 ],
                 "damage": "30+",
-                "text": "If any of your Pokemon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage."
+                "text": "If any of your Pok\u00e9mon were Knocked Out by damage from an opponent's attack during their last turn, this attack does 90 more damage."
             },
             {
                 "name": "Fire Mane",
@@ -2154,7 +2154,7 @@
     {
         "id": "sm12-29",
         "name": "Torkoal",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2179,7 +2179,7 @@
                     "Fire"
                 ],
                 "damage": "100",
-                "text": "Discard an Energy from this Pokemon. If you do, discard an Energy from your opponent's Active Pokemon."
+                "text": "Discard an Energy from this Pok\u00e9mon. If you do, discard an Energy from your opponent's Active Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -2199,7 +2199,7 @@
     {
         "id": "sm12-30",
         "name": "Victini",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2234,7 +2234,7 @@
     {
         "id": "sm12-31",
         "name": "Tepig",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2279,7 +2279,7 @@
     {
         "id": "sm12-32",
         "name": "Pignite",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -2327,7 +2327,7 @@
     {
         "id": "sm12-33",
         "name": "Emboar",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -2367,7 +2367,7 @@
     {
         "id": "sm12-34",
         "name": "Larvesta",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2413,7 +2413,7 @@
     {
         "id": "sm12-35",
         "name": "Volcarona-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1",
             "GX"
@@ -2431,7 +2431,7 @@
                     "Colorless"
                 ],
                 "damage": "160",
-                "text": "Put 2 Fire Energy attached to this Pokemon into your hand."
+                "text": "Put 2 Fire Energy attached to this Pok\u00e9mon into your hand."
             },
             {
                 "name": "Massive Heat Wave-GX",
@@ -2439,7 +2439,7 @@
                     "Fire"
                 ],
                 "damage": "",
-                "text": "Discard an Energy from each of your opponent's Pokemon. (You can't use more than 1 GX attack in a game.)"
+                "text": "Discard an Energy from each of your opponent's Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -2460,7 +2460,7 @@
     {
         "id": "sm12-36",
         "name": "Litleo",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2504,7 +2504,7 @@
     {
         "id": "sm12-37",
         "name": "Pyroar",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -2521,7 +2521,7 @@
                     "Colorless"
                 ],
                 "damage": "70",
-                "text": "Discard all Pokemon Tool cards and Special Energy from each of your opponent's Pokemon."
+                "text": "Discard all Pok\u00e9mon Tool cards and Special Energy from each of your opponent's Pok\u00e9mon."
             },
             {
                 "name": "Heat Blast",
@@ -2552,7 +2552,7 @@
     {
         "id": "sm12-105",
         "name": "Onix",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2599,7 +2599,7 @@
     {
         "id": "sm12-106",
         "name": "Nosepass",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2615,7 +2615,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Switch 1 of your opponent's Benched Pokemon with their Active Pokemon."
+                "text": "Switch 1 of your opponent's Benched Pok\u00e9mon with their Active Pok\u00e9mon."
             },
             {
                 "name": "Zap Cannon",
@@ -2625,7 +2625,7 @@
                     "Colorless"
                 ],
                 "damage": "50",
-                "text": "This Pokemon can't use Zap Cannon during your next turn."
+                "text": "This Pok\u00e9mon can't use Zap Cannon during your next turn."
             }
         ],
         "weaknesses": [
@@ -2646,7 +2646,7 @@
     {
         "id": "sm12-107",
         "name": "Trapinch",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2688,7 +2688,7 @@
     {
         "id": "sm12-109",
         "name": "Vibrava",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -2723,7 +2723,7 @@
     {
         "id": "sm12-110",
         "name": "Flygon-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2",
             "GX"
@@ -2751,7 +2751,7 @@
                     "Fighting"
                 ],
                 "damage": "220",
-                "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokemon. (You can't use more than 1 GX attack in a game.)"
+                "text": "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -2771,7 +2771,7 @@
     {
         "id": "sm12-111",
         "name": "Anorith",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -2816,7 +2816,7 @@
     {
         "id": "sm12-112",
         "name": "Armaldo",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -2862,7 +2862,7 @@
     {
         "id": "sm12-113",
         "name": "Groudon",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2877,7 +2877,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Attach up to 2 Fighting Energy cards from your hand to 1 of your Pokemon."
+                "text": "Attach up to 2 Fighting Energy cards from your hand to 1 of your Pok\u00e9mon."
             },
             {
                 "name": "Trembling Ground",
@@ -2887,7 +2887,7 @@
                     "Colorless"
                 ],
                 "damage": "130",
-                "text": "This Pokemon can't use Trembling Ground during your next turn."
+                "text": "This Pok\u00e9mon can't use Trembling Ground during your next turn."
             }
         ],
         "weaknesses": [
@@ -2908,7 +2908,7 @@
     {
         "id": "sm12-114",
         "name": "Drilbur",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -2951,7 +2951,7 @@
     {
         "id": "sm12-115",
         "name": "Excadrill",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -2996,7 +2996,7 @@
     {
         "id": "sm12-116",
         "name": "Palpitoad",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3011,7 +3011,7 @@
                     "Fighting"
                 ],
                 "damage": "60",
-                "text": "This attack does 10 damage to each of your Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 10 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -3031,7 +3031,7 @@
     {
         "id": "sm12-117",
         "name": "Seismitoad",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -3049,7 +3049,7 @@
                     "Colorless"
                 ],
                 "damage": "80+",
-                "text": "This attack does 30 more damage for each of your Benched Pokemon that has any damage counters on it."
+                "text": "This attack does 30 more damage for each of your Benched Pok\u00e9mon that has any damage counters on it."
             }
         ],
         "weaknesses": [
@@ -3070,7 +3070,7 @@
     {
         "id": "sm12-118",
         "name": "Throh",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3086,7 +3086,7 @@
                     "Colorless"
                 ],
                 "damage": "30+",
-                "text": "If your Benched Pokemon have any damage counters on them, this attack does 90 more damage."
+                "text": "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 90 more damage."
             }
         ],
         "weaknesses": [
@@ -3106,7 +3106,7 @@
     {
         "id": "sm12-119",
         "name": "Pancham",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3141,7 +3141,7 @@
     {
         "id": "sm12-120",
         "name": "Pangoro",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3186,7 +3186,7 @@
     {
         "id": "sm12-121",
         "name": "Crabrawler",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3230,7 +3230,7 @@
     {
         "id": "sm12-122",
         "name": "Crabominable",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3247,7 +3247,7 @@
                     "Colorless"
                 ],
                 "damage": "80+",
-                "text": "If this Pokemon has any Water Energy attached to it, this attack does 80 more damage."
+                "text": "If this Pok\u00e9mon has any Water Energy attached to it, this attack does 80 more damage."
             }
         ],
         "weaknesses": [
@@ -3269,7 +3269,7 @@
     {
         "id": "sm12-123",
         "name": "Rockruff",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3284,7 +3284,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Your opponent switches their Active Pokemon with 1 of their Benched Pokemon."
+                "text": "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
             },
             {
                 "name": "Rock Throw",
@@ -3313,7 +3313,7 @@
     {
         "id": "sm12-124",
         "name": "Lycanroc",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3330,7 +3330,7 @@
                     "Colorless"
                 ],
                 "damage": "60+",
-                "text": "If your opponent's Active Pokemon has any Special Energy attached to it, this attack does 70 more damage."
+                "text": "If your opponent's Active Pok\u00e9mon has any Special Energy attached to it, this attack does 70 more damage."
             }
         ],
         "weaknesses": [
@@ -3350,7 +3350,7 @@
     {
         "id": "sm12-125",
         "name": "Passimian",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3394,7 +3394,7 @@
     {
         "id": "sm12-126",
         "name": "Sandygast",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3438,7 +3438,7 @@
     {
         "id": "sm12-127",
         "name": "Palossand",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3455,7 +3455,7 @@
                     "Colorless"
                 ],
                 "damage": "80",
-                "text": "During your opponent's next turn, this Pokemon takes 20 less damage from attacks (after applying Weakness and Resistance)."
+                "text": "During your opponent's next turn, this Pok\u00e9mon takes 20 less damage from attacks (after applying Weakness and Resistance)."
             },
             {
                 "name": "Earthquake",
@@ -3466,7 +3466,7 @@
                     "Colorless"
                 ],
                 "damage": "150",
-                "text": "This attack does 20 damage to each of your Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 20 damage to each of your Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -3488,7 +3488,7 @@
     {
         "id": "sm12-66",
         "name": "Pikachu",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3503,7 +3503,7 @@
                     "Lightning"
                 ],
                 "damage": "",
-                "text": "Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed."
+                "text": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
             },
             {
                 "name": "Volt Tackle",
@@ -3513,7 +3513,7 @@
                     "Colorless"
                 ],
                 "damage": "70",
-                "text": "This Pokemon does 10 damage to itself."
+                "text": "This Pok\u00e9mon does 10 damage to itself."
             }
         ],
         "weaknesses": [
@@ -3532,7 +3532,7 @@
     {
         "id": "sm12-67",
         "name": "Raichu",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3547,7 +3547,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed."
+                "text": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
             },
             {
                 "name": "Powerful Spark",
@@ -3555,7 +3555,7 @@
                     "Lightning"
                 ],
                 "damage": "20\ufffd-",
-                "text": "This attack does 20 damage times the amount of Lightning Energy attached to all of your Pokemon."
+                "text": "This attack does 20 damage times the amount of Lightning Energy attached to all of your Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -3575,7 +3575,7 @@
     {
         "id": "sm12-68",
         "name": "Magnemite",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3590,7 +3590,7 @@
                     "Lightning"
                 ],
                 "damage": "10",
-                "text": "If the Defending Pokemon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack doesn't happen."
+                "text": "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack doesn't happen."
             }
         ],
         "weaknesses": [
@@ -3609,7 +3609,7 @@
     {
         "id": "sm12-69",
         "name": "Magneton",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3646,7 +3646,7 @@
     {
         "id": "sm12-70",
         "name": "Jolteon",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3681,7 +3681,7 @@
     {
         "id": "sm12-71",
         "name": "Chinchou",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3723,7 +3723,7 @@
     {
         "id": "sm12-72",
         "name": "Lanturn",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3759,7 +3759,7 @@
     {
         "id": "sm12-73",
         "name": "Togedemaru",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3774,7 +3774,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Search your deck for up to 2 Basic Pokemon and put them onto your Bench. Then, shuffle your deck."
+                "text": "Search your deck for up to 2 Basic Pok\u00e9mon and put them onto your Bench. Then, shuffle your deck."
             },
             {
                 "name": "Random Spark",
@@ -3782,7 +3782,7 @@
                     "Lightning"
                 ],
                 "damage": "",
-                "text": "This attack does 20 damage to 1 of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -3801,7 +3801,7 @@
     {
         "id": "sm12-1",
         "name": "Venusaur & Snivy-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -3831,7 +3831,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "This attack does 50 damage to each of your opponent's Pokemon. If this Pokemon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) (You can't use more than 1 GX attack in a game.)"
+                "text": "This attack does 50 damage to each of your opponent's Pok\u00e9mon. If this Pok\u00e9mon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -3852,7 +3852,7 @@
     {
         "id": "sm12-2",
         "name": "Oddish",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3867,7 +3867,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Heal 30 damage from 1 of your Pokemon."
+                "text": "Heal 30 damage from 1 of your Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -3886,7 +3886,7 @@
     {
         "id": "sm12-3",
         "name": "Gloom",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -3901,7 +3901,7 @@
                     "Grass"
                 ],
                 "damage": "20",
-                "text": "Your opponent's Active Pokemon is now Asleep."
+                "text": "Your opponent's Active Pok\u00e9mon is now Asleep."
             }
         ],
         "weaknesses": [
@@ -3921,7 +3921,7 @@
     {
         "id": "sm12-4",
         "name": "Vileplume-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2",
             "GX"
@@ -3938,7 +3938,7 @@
                     "Colorless"
                 ],
                 "damage": "180-",
-                "text": "This attack does 10 less damage for each damage counter on this Pokemon."
+                "text": "This attack does 10 less damage for each damage counter on this Pok\u00e9mon."
             },
             {
                 "name": "Allergic Explosion-GX",
@@ -3946,7 +3946,7 @@
                     "Grass"
                 ],
                 "damage": "50",
-                "text": "Your opponent's Active Pokemon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
+                "text": "Your opponent's Active Pok\u00e9mon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -3966,7 +3966,7 @@
     {
         "id": "sm12-5",
         "name": "Tangela",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -3981,7 +3981,7 @@
                     "Grass"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Poisoned. Put 2 damage counters instead of 1 on that Pokemon between turns."
+                "text": "Your opponent's Active Pok\u00e9mon is now Poisoned. Put 2 damage counters instead of 1 on that Pok\u00e9mon between turns."
             }
         ],
         "weaknesses": [
@@ -4001,7 +4001,7 @@
     {
         "id": "sm12-6",
         "name": "Tangrowth",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4016,7 +4016,7 @@
                     "Grass"
                 ],
                 "damage": "10+",
-                "text": "This attack does 30 more damage for each Colorless in your opponent's Active Pokemon's Retreat Cost."
+                "text": "This attack does 30 more damage for each Colorless in your opponent's Active Pok\u00e9mon's Retreat Cost."
             },
             {
                 "name": "Slam",
@@ -4047,7 +4047,7 @@
     {
         "id": "sm12-7",
         "name": "Sunkern",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4062,7 +4062,7 @@
                     "Grass"
                 ],
                 "damage": "10",
-                "text": "Heal 10 damage from this Pokemon."
+                "text": "Heal 10 damage from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -4081,7 +4081,7 @@
     {
         "id": "sm12-8",
         "name": "Sunflora",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4097,7 +4097,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "During your next turn, ignore all Energy in the attack costs of Grass Pokemon and Fire Pokemon. (This includes Pokemon that come into play on that turn.)"
+                "text": "During your next turn, ignore all Energy in the attack costs of Grass Pok\u00e9mon and Fire Pok\u00e9mon. (This includes Pok\u00e9mon that come into play on that turn.)"
             },
             {
                 "name": "Solar Beam",
@@ -4126,7 +4126,7 @@
     {
         "id": "sm12-9",
         "name": "Heracross",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4151,7 +4151,7 @@
                     "Colorless"
                 ],
                 "damage": "50+",
-                "text": "If your opponent has any TAG TEAM Pokemon in play, this attack does 70 more damage."
+                "text": "If your opponent has any TAG TEAM Pok\u00e9mon in play, this attack does 70 more damage."
             }
         ],
         "weaknesses": [
@@ -4172,7 +4172,7 @@
     {
         "id": "sm12-10",
         "name": "Lileep",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4187,7 +4187,7 @@
                     "Grass"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Confused."
+                "text": "Your opponent's Active Pok\u00e9mon is now Confused."
             },
             {
                 "name": "Seed Bomb",
@@ -4217,7 +4217,7 @@
     {
         "id": "sm12-11",
         "name": "Cradily",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -4234,7 +4234,7 @@
                     "Colorless"
                 ],
                 "damage": "110",
-                "text": "Your opponent's Active Pokemon is now Poisoned."
+                "text": "Your opponent's Active Pok\u00e9mon is now Poisoned."
             }
         ],
         "weaknesses": [
@@ -4255,7 +4255,7 @@
     {
         "id": "sm12-12",
         "name": "Tropius",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4270,7 +4270,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Search your deck for a Grass Energy card and attach it to 1 of your Pokemon. Then, shuffle your deck."
+                "text": "Search your deck for a Grass Energy card and attach it to 1 of your Pok\u00e9mon. Then, shuffle your deck."
             },
             {
                 "name": "Leaf Drain",
@@ -4279,7 +4279,7 @@
                     "Colorless"
                 ],
                 "damage": "50",
-                "text": "Heal 30 damage from this Pokemon."
+                "text": "Heal 30 damage from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -4299,7 +4299,7 @@
     {
         "id": "sm12-13",
         "name": "Kricketot",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4341,7 +4341,7 @@
     {
         "id": "sm12-14",
         "name": "Kricketune",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4356,7 +4356,7 @@
                     "Grass"
                 ],
                 "damage": "30+",
-                "text": "If you have exactly 1 card in your hand, this attack does 100 more damage. If you have exactly 3 cards in your hand, your opponent's Active Pokemon is now Confused. If you have exactly 6 cards in your hand, this attack does 30 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "If you have exactly 1 card in your hand, this attack does 100 more damage. If you have exactly 3 cards in your hand, your opponent's Active Pok\u00e9mon is now Confused. If you have exactly 6 cards in your hand, this attack does 30 damage to each of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -4376,7 +4376,7 @@
     {
         "id": "sm12-15",
         "name": "Deerling",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4410,7 +4410,7 @@
     {
         "id": "sm12-16",
         "name": "Sawsbuck",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4426,7 +4426,7 @@
                     "Colorless"
                 ],
                 "damage": "60",
-                "text": "You may switch this Pokemon with 1 of your Benched Pokemon."
+                "text": "You may switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -4446,7 +4446,7 @@
     {
         "id": "sm12-17",
         "name": "Rowlet",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4461,7 +4461,7 @@
                     "Grass"
                 ],
                 "damage": "",
-                "text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokemon during your opponent's next turn."
+                "text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pok\u00e9mon during your opponent's next turn."
             },
             {
                 "name": "Tackle",
@@ -4489,7 +4489,7 @@
     {
         "id": "sm12-19",
         "name": "Dartrix",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4513,7 +4513,7 @@
                     "Colorless"
                 ],
                 "damage": "30",
-                "text": "Your opponent switches their Active Pokemon with 1 of their Benched Pokemon."
+                "text": "Your opponent switches their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -4532,7 +4532,7 @@
     {
         "id": "sm12-20",
         "name": "Decidueye",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -4547,7 +4547,7 @@
                     "Grass"
                 ],
                 "damage": "",
-                "text": "This attack does 40 damage to 1 of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             },
             {
                 "name": "Tracking Shot",
@@ -4556,7 +4556,7 @@
                     "Colorless"
                 ],
                 "damage": "80",
-                "text": "This attack does 80 damage to 1 of your opponent's Benched Pokemon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "This attack does 80 damage to 1 of your opponent's Benched Pok\u00e9mon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -4575,7 +4575,7 @@
     {
         "id": "sm12-21",
         "name": "Buzzwole",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "Ultra Beast"
@@ -4592,7 +4592,7 @@
                     "Colorless"
                 ],
                 "damage": "60",
-                "text": "Heal 30 damage from this Pokemon."
+                "text": "Heal 30 damage from this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -4612,7 +4612,7 @@
     {
         "id": "sm12-75",
         "name": "Solgaleo & Lunala-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -4632,7 +4632,7 @@
                     "Colorless"
                 ],
                 "damage": "230",
-                "text": "This Pokemon can't use Cosmic Burn during your next turn."
+                "text": "This Pok\u00e9mon can't use Cosmic Burn during your next turn."
             },
             {
                 "name": "Light of the Protector-GX",
@@ -4642,7 +4642,7 @@
                     "Colorless"
                 ],
                 "damage": "200",
-                "text": "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pokemon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
+                "text": "If you played Lillie's Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pok\u00e9mon during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -4662,7 +4662,7 @@
     {
         "id": "sm12-76",
         "name": "Koffing",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4678,7 +4678,7 @@
                     "Colorless"
                 ],
                 "damage": "10",
-                "text": "Your opponent's Active Pokemon is now Poisoned."
+                "text": "Your opponent's Active Pok\u00e9mon is now Poisoned."
             }
         ],
         "weaknesses": [
@@ -4697,7 +4697,7 @@
     {
         "id": "sm12-77",
         "name": "Weezing",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4713,7 +4713,7 @@
                     "Colorless"
                 ],
                 "damage": "90",
-                "text": "Discard this Pokemon and all cards attached to it."
+                "text": "Discard this Pok\u00e9mon and all cards attached to it."
             }
         ],
         "weaknesses": [
@@ -4733,7 +4733,7 @@
     {
         "id": "sm12-78",
         "name": "Natu",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4767,7 +4767,7 @@
     {
         "id": "sm12-79",
         "name": "Xatu",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4782,7 +4782,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Confused."
+                "text": "Your opponent's Active Pok\u00e9mon is now Confused."
             },
             {
                 "name": "Life Drain",
@@ -4791,7 +4791,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Flip a coin. If heads, put damage counters on your opponent's Active Pokemon until its remaining HP is 10."
+                "text": "Flip a coin. If heads, put damage counters on your opponent's Active Pok\u00e9mon until its remaining HP is 10."
             }
         ],
         "weaknesses": [
@@ -4811,7 +4811,7 @@
     {
         "id": "sm12-80",
         "name": "Ralts",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4826,7 +4826,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Switch this Pokemon with 1 of your Benched Pokemon."
+                "text": "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
             },
             {
                 "name": "Ram",
@@ -4853,7 +4853,7 @@
     {
         "id": "sm12-81",
         "name": "Kirlia",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4868,7 +4868,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Asleep."
+                "text": "Your opponent's Active Pok\u00e9mon is now Asleep."
             },
             {
                 "name": "Spiral Kick",
@@ -4896,7 +4896,7 @@
     {
         "id": "sm12-82",
         "name": "Gallade",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -4912,7 +4912,7 @@
                     "Colorless"
                 ],
                 "damage": "120",
-                "text": "Move an Energy from this Pokemon to 1 of your Benched Pokemon."
+                "text": "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -4932,7 +4932,7 @@
     {
         "id": "sm12-83",
         "name": "Duskull",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -4947,7 +4947,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "Put 2 damage counters on 1 of your opponent's Pokemon."
+                "text": "Put 2 damage counters on 1 of your opponent's Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -4966,7 +4966,7 @@
     {
         "id": "sm12-84",
         "name": "Dusclops",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -4981,7 +4981,7 @@
                     "Psychic"
                 ],
                 "damage": "20",
-                "text": "Choose 1 of your opponent's Active Pokemon's attacks. That Pokemon can't use that attack during your opponent's next turn."
+                "text": "Choose 1 of your opponent's Active Pok\u00e9mon's attacks. That Pok\u00e9mon can't use that attack during your opponent's next turn."
             }
         ],
         "weaknesses": [
@@ -5002,7 +5002,7 @@
     {
         "id": "sm12-85",
         "name": "Dusknoir",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -5017,7 +5017,7 @@
                     "Psychic"
                 ],
                 "damage": "60",
-                "text": "During your next turn, this Pokemon's Psych Up attack does 60 more damage (before applying Weakness and Resistance)."
+                "text": "During your next turn, this Pok\u00e9mon's Psych Up attack does 60 more damage (before applying Weakness and Resistance)."
             }
         ],
         "weaknesses": [
@@ -5038,7 +5038,7 @@
     {
         "id": "sm12-86",
         "name": "Rotom",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5061,7 +5061,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "Attach 2 basic Energy cards from your discard pile to your Benched Pokemon in any way you like."
+                "text": "Attach 2 basic Energy cards from your discard pile to your Benched Pok\u00e9mon in any way you like."
             }
         ],
         "weaknesses": [
@@ -5080,7 +5080,7 @@
     {
         "id": "sm12-87",
         "name": "Woobat",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5095,7 +5095,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "The Defending Pokemon can't retreat during your opponent's next turn."
+                "text": "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
             },
             {
                 "name": "Air Cutter",
@@ -5122,7 +5122,7 @@
     {
         "id": "sm12-88",
         "name": "Swoobat",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -5137,7 +5137,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Confused."
+                "text": "Your opponent's Active Pok\u00e9mon is now Confused."
             },
             {
                 "name": "Charming Stamp",
@@ -5145,7 +5145,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "Your opponent chooses 1 of their own Pokemon. This attack does 90 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)"
+                "text": "Your opponent chooses 1 of their own Pok\u00e9mon. This attack does 90 damage to that Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
             }
         ],
         "weaknesses": [
@@ -5164,7 +5164,7 @@
     {
         "id": "sm12-89",
         "name": "Golett",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5200,7 +5200,7 @@
     {
         "id": "sm12-90",
         "name": "Golurk",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -5246,7 +5246,7 @@
     {
         "id": "sm12-91",
         "name": "Skrelp",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5261,7 +5261,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "Your opponent's Active Pokemon is now Poisoned."
+                "text": "Your opponent's Active Pok\u00e9mon is now Poisoned."
             }
         ],
         "weaknesses": [
@@ -5281,7 +5281,7 @@
     {
         "id": "sm12-92",
         "name": "Dragalge",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -5296,7 +5296,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "If your opponent's Active Pokemon is Poisoned, put 10 damage counters instead of 1 on that Pokemon between turns."
+                "text": "If your opponent's Active Pok\u00e9mon is Poisoned, put 10 damage counters instead of 1 on that Pok\u00e9mon between turns."
             },
             {
                 "name": "Sharp Fin",
@@ -5323,7 +5323,7 @@
     {
         "id": "sm12-93",
         "name": "Phantump",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5366,7 +5366,7 @@
     {
         "id": "sm12-94",
         "name": "Trevenant",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -5381,7 +5381,7 @@
                     "Colorless"
                 ],
                 "damage": "20",
-                "text": "You may have your opponent switch their Active Pokemon with 1 of their Benched Pokemon."
+                "text": "You may have your opponent switch their Active Pok\u00e9mon with 1 of their Benched Pok\u00e9mon."
             },
             {
                 "name": "Shadow Impact",
@@ -5391,7 +5391,7 @@
                     "Colorless"
                 ],
                 "damage": "120",
-                "text": "Put 4 damage counters on 1 of your Pokemon."
+                "text": "Put 4 damage counters on 1 of your Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -5411,7 +5411,7 @@
     {
         "id": "sm12-95",
         "name": "Oricorio-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "GX"
@@ -5439,7 +5439,7 @@
                     "Colorless"
                 ],
                 "damage": "100",
-                "text": "Switch this Pokemon with 1 of your Benched Pokemon. (You can't use more than 1 GX attack in a game.)"
+                "text": "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -5458,7 +5458,7 @@
     {
         "id": "sm12-96",
         "name": "Mimikyu",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5481,7 +5481,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "Choose 2 of your opponent's Pokemon and put 2 damage counters on each of them."
+                "text": "Choose 2 of your opponent's Pok\u00e9mon and put 2 damage counters on each of them."
             }
         ],
         "weaknesses": [],
@@ -5495,7 +5495,7 @@
     {
         "id": "sm12-98",
         "name": "Dhelmise",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5541,7 +5541,7 @@
     {
         "id": "sm12-99",
         "name": "Cosmog",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5556,7 +5556,7 @@
                     "Psychic"
                 ],
                 "damage": "",
-                "text": "Search your deck for a card that evolves from this Pokemon and put it onto this Pokemon to evolve it. Then, shuffle your deck."
+                "text": "Search your deck for a card that evolves from this Pok\u00e9mon and put it onto this Pok\u00e9mon to evolve it. Then, shuffle your deck."
             }
         ],
         "weaknesses": [
@@ -5575,7 +5575,7 @@
     {
         "id": "sm12-101",
         "name": "Cosmoem",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -5590,7 +5590,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "During your opponent's next turn, this Pokemon takes 40 less damage from attacks (after applying Weakness and Resistance)."
+                "text": "During your opponent's next turn, this Pok\u00e9mon takes 40 less damage from attacks (after applying Weakness and Resistance)."
             }
         ],
         "weaknesses": [
@@ -5611,7 +5611,7 @@
     {
         "id": "sm12-102",
         "name": "Lunala",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -5648,7 +5648,7 @@
     {
         "id": "sm12-103",
         "name": "Marshadow",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5665,7 +5665,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Choose 1 of your opponent's Active Pokemon's non-GX attacks and use it as this attack."
+                "text": "Choose 1 of your opponent's Active Pok\u00e9mon's non-GX attacks and use it as this attack."
             }
         ],
         "weaknesses": [
@@ -5684,7 +5684,7 @@
     {
         "id": "sm12-104",
         "name": "Blacephalon",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "Ultra Beast"
@@ -5701,7 +5701,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Put 4 damage counters on your opponent's Pokemon in any way you like. If your opponent has exactly 3 Prize cards remaining, put 12 damage counters on them instead."
+                "text": "Put 4 damage counters on your opponent's Pok\u00e9mon in any way you like. If your opponent has exactly 3 Prize cards remaining, put 12 damage counters on them instead."
             }
         ],
         "weaknesses": [
@@ -5721,7 +5721,7 @@
     {
         "id": "sm12-156",
         "name": "Arceus & Dialga & Palkia-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -5740,7 +5740,7 @@
                     "Colorless"
                 ],
                 "damage": "150",
-                "text": "Search your deck for up to 3 basic Energy cards and attach them to your Pokemon in any way you like. Then, shuffle your deck."
+                "text": "Search your deck for up to 3 basic Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck."
             },
             {
                 "name": "Altered Creation-GX",
@@ -5748,7 +5748,7 @@
                     "Metal"
                 ],
                 "damage": "",
-                "text": "For the rest of this game, your Pokemon's attacks do 30 more damage to your opponent's Active Pokemon (before applying Weakness and Resistance). If this Pokemon has at least 1 extra Water Energy attached to it (in addition to this attack's cost), when your opponent's Active Pokemon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game.)"
+                "text": "For the rest of this game, your Pok\u00e9mon's attacks do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). If this Pok\u00e9mon has at least 1 extra Water Energy attached to it (in addition to this attack's cost), when your opponent's Active Pok\u00e9mon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -5769,7 +5769,7 @@
     {
         "id": "sm12-157",
         "name": "Reshiram & Zekrom-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -5787,7 +5787,7 @@
                     "Lightning"
                 ],
                 "damage": "90\ufffd-",
-                "text": "Discard up to 3 in any combination of basic Fire and basic Lightning Energy cards from your Benched Pokemon. This attack does 90 damage for each card you discarded in this way."
+                "text": "Discard up to 3 in any combination of basic Fire and basic Lightning Energy cards from your Benched Pok\u00e9mon. This attack does 90 damage for each card you discarded in this way."
             },
             {
                 "name": "Cross Break-GX",
@@ -5798,7 +5798,7 @@
                     "Lightning"
                 ],
                 "damage": "",
-                "text": "This attack does 170 damage to 1 of your opponent's Benched Pokemon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) (You can't use more than 1 GX attack in a game.)"
+                "text": "This attack does 170 damage to 1 of your opponent's Benched Pok\u00e9mon. If you played N's Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent's other Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.) (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -5819,7 +5819,7 @@
     {
         "id": "sm12-158",
         "name": "Naganadel & Guzzlord-GX",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "TAG TEAM",
@@ -5847,7 +5847,7 @@
                     "Colorless"
                 ],
                 "damage": "",
-                "text": "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) If this Pokemon has at least 1 extra Psychic Energy and 1 extra Darkness Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game.)"
+                "text": "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) If this Pok\u00e9mon has at least 1 extra Psychic Energy and 1 extra Darkness Energy attached to it (in addition to this attack's cost), take 2 Prize cards. (You can't use more than 1 GX attack in a game.)"
             }
         ],
         "weaknesses": [
@@ -5868,7 +5868,7 @@
     {
         "id": "sm12-159",
         "name": "Drampa",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5893,7 +5893,7 @@
                     "Colorless"
                 ],
                 "damage": "70+",
-                "text": "If this Pokemon has 2 or more different types of basic Energy attached to it, this attack does 70 more damage."
+                "text": "If this Pok\u00e9mon has 2 or more different types of basic Energy attached to it, this attack does 70 more damage."
             }
         ],
         "weaknesses": [
@@ -5912,7 +5912,7 @@
     {
         "id": "sm12-160",
         "name": "Jangmo-o",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic"
         ],
@@ -5928,7 +5928,7 @@
                     "Fighting"
                 ],
                 "damage": "20+",
-                "text": "This attack does 10 more damage for each damage counter on this Pokemon."
+                "text": "This attack does 10 more damage for each damage counter on this Pok\u00e9mon."
             }
         ],
         "weaknesses": [
@@ -5947,7 +5947,7 @@
     {
         "id": "sm12-162",
         "name": "Hakamo-o",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 1"
         ],
@@ -5983,7 +5983,7 @@
     {
         "id": "sm12-163",
         "name": "Kommo-o",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Stage 2"
         ],
@@ -5998,7 +5998,7 @@
                     "Fighting"
                 ],
                 "damage": "60",
-                "text": "Attach a basic Energy card from your discard pile to 1 of your Benched Pokemon."
+                "text": "Attach a basic Energy card from your discard pile to 1 of your Benched Pok\u00e9mon."
             },
             {
                 "name": "Scaly Uppercut",
@@ -6007,7 +6007,7 @@
                     "Fighting"
                 ],
                 "damage": "90+",
-                "text": "You may discard a Pokemon Tool card from this Pokemon. If you do, this attack does 90 more damage."
+                "text": "You may discard a Pok\u00e9mon Tool card from this Pok\u00e9mon. If you do, this attack does 90 more damage."
             }
         ],
         "weaknesses": [
@@ -6027,7 +6027,7 @@
     {
         "id": "sm12-164",
         "name": "Ultra Necrozma",
-        "supertype": "Pokemon",
+        "supertype": "Pok\u00e9mon",
         "subtypes": [
             "Basic",
             "Ultra Beast"
@@ -6044,7 +6044,7 @@
                     "Metal"
                 ],
                 "damage": "170",
-                "text": "Discard an Energy from your opponent's Active Pokemon."
+                "text": "Discard an Energy from your opponent's Active Pok\u00e9mon."
             }
         ],
         "weaknesses": [
