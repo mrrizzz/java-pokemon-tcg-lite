@@ -12,6 +12,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
 
@@ -30,7 +31,6 @@ public class ViewDecksController {
         User user = UserManager.getInstance().getCurrentUser();
         System.out.println("ini nami dari viewdeck" + user.getUsername());
         List<Deck> decks = user.getDecks();
-        System.out.println(decks);
         availableDeckList = FXCollections.observableArrayList();
 
 
@@ -49,18 +49,10 @@ public class ViewDecksController {
     }
 
     public void handleViewDeckDetails(ActionEvent event) {
-    }
-
-    public void handleDeleteDeck(ActionEvent event) {
-    }
-
-    public void handleBackToDashboard(ActionEvent event) {
         try
         {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/dashboard.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/viewDeckDetails.fxml"));
             Parent dashboardRoot = loader.load();
-
-            DashboardController dashboardController = loader.getController();
 
             Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 
@@ -70,5 +62,52 @@ public class ViewDecksController {
         } catch (IOException e) {
             System.err.println("Error loading FXML: " + e.getMessage());
         }
+    }
+
+    public void handleDeleteDeck(ActionEvent event) {
+        String selected = availableDecksListView.getSelectionModel()
+                .getSelectedItem();
+        if (selected != null){
+            Deck toRemove = null;
+            User user = UserManager.getInstance().getCurrentUser();
+
+            List<Deck> decks = user.getDecks();
+            for (Deck deck : decks){
+                if (deck.getName().equals(selected)){
+                    toRemove = deck;
+                    break;
+                }
+            }
+
+            if (toRemove != null){
+                user.removeDeck(toRemove);
+                availableDeckList.remove(selected);
+                showAlert("SUccess", selected + "Deck deleted successfully");
+            }
+        }
+    }
+
+    public void handleBackToDashboard(ActionEvent event) {
+        try
+        {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/dashboard.fxml"));
+            Parent dashboardRoot = loader.load();
+
+            Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+            Scene scene = new Scene(dashboardRoot);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            System.err.println("Error loading FXML: " + e.getMessage());
+        }
+    }
+
+    private void showAlert(String title, String content) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(content);
+        alert.showAndWait();
     }
 }

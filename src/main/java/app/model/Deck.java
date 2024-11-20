@@ -15,7 +15,7 @@ public class Deck {
 
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name){

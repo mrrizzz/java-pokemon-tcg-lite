@@ -179,6 +179,7 @@ public class CreateDeckController {
             newDeck.addCards(card);
         }
 
+        System.out.println("ini deck getname  saat saving" + newDeck.getName());
         User currentUser = UserManager.getInstance().getCurrentUser();
 
         if (currentUser != null){
