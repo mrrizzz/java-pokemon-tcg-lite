@@ -45,7 +45,7 @@ public class CreateDeckController {
         availableCardList = FXCollections.observableArrayList();
         selectedCardList = FXCollections.observableArrayList();
         try {
-            URL resourceUrl = getClass().getResource("/data/pokemondata.json");
+            URL resourceUrl = getClass().getResource("/data/pokemondata1.json");
 
             if (resourceUrl == null) {
                 throw new IllegalArgumentException("File pokemondata.json tidak ditemukan");

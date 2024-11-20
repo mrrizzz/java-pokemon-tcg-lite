@@ -52,8 +52,6 @@ public class EditDeckController {
         availableCardList = FXCollections.observableArrayList();
         selectedCardList = FXCollections.observableArrayList();
 
-
-//        selectedCardList.addAll(deck.getCards());
         try {
             URL resourceUrl = getClass().getResource("/data/pokemondata.json");
 
@@ -203,13 +201,11 @@ public class EditDeckController {
         try
         {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/dashboard.fxml"));
-            Parent dashboardRoot = loader.load();
-
-            DashboardController dashboardController = loader.getController();
+            Parent root = loader.load();
 
             Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 
-            Scene scene = new Scene(dashboardRoot);
+            Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {

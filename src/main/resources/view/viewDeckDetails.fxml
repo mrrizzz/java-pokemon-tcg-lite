@@ -24,6 +24,7 @@
                     <children>
                         <Button onAction="#handleEditDeck" text="Edit Decks" />
                         <Button onAction="#handleBackToDashboard" text="Back to Dashboard" />
+                        <Button onAction="#handleBackToPreviousPage" text="Previous Page" />
                     </children>
                 </HBox>
             </children>

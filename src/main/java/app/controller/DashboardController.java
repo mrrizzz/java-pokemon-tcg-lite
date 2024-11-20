@@ -71,4 +71,16 @@ public class DashboardController {
         alert.setContentText(message);
         alert.showAndWait();
     }
+
+    private void showAlert(String title, String content) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(content);
+        alert.showAndWait();
+    }
+
+    public void handleVersusButton(ActionEvent event) {
+        showAlert("Mohon Maaf Fitur Ini Belum Tersedia", "Fitur ini seharusnya ada jika deadline yang diberikan lebih dari 1 minggu 🙏");
+    }
 }
