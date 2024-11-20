@@ -44,23 +44,43 @@ public class ViewDecksController {
         // Load and display all cards in the collection
     }
 
-    public void refreshCollection() {
-        // Refresh the displayed cards
-    }
-
     public void handleViewDeckDetails(ActionEvent event) {
-        try
-        {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/viewDeckDetails.fxml"));
-            Parent dashboardRoot = loader.load();
+        String selected = availableDecksListView.getSelectionModel()
+                .getSelectedItem();
+        if (selected != null) {
+            Deck viewDetails = null;
+            User user = UserManager.getInstance().getCurrentUser();
 
-            Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            List<Deck> decks = user.getDecks();
+            for (Deck deck : decks) {
+                if (deck.getName().equals(selected)) {
+                    viewDetails = deck;
+                    break;
+                }
+            }
 
-            Scene scene = new Scene(dashboardRoot);
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            System.err.println("Error loading FXML: " + e.getMessage());
+            if (viewDetails == null) {
+                showAlert("Error", "Selected deck not found");
+                return;
+            }
+
+            try
+            {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/viewDeckDetails.fxml"));
+                Parent dashboardRoot = loader.load();
+
+                DeckDetailsController deckDetailsController = loader.getController();
+                deckDetailsController.setDeck(viewDetails);
+
+                Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+                Scene scene = new Scene(dashboardRoot);
+                stage.setScene(scene);
+                stage.show();
+            } catch (IOException e) {
+                showAlert("Error loading FXML: ", e.getMessage());
+                System.err.println("Error loading FXML: " + e.getMessage());
+            }
         }
     }
 
@@ -108,6 +128,14 @@ public class ViewDecksController {
         alert.setTitle(title);
         alert.setHeaderText(null);
         alert.setContentText(content);
+        alert.showAndWait();
+    }
+
+    private void showError(String message) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle("Error");
+        alert.setHeaderText(null);
+        alert.setContentText(message);
         alert.showAndWait();
     }
 }

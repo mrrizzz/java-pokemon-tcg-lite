@@ -8,22 +8,21 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.ViewDecksController">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.DeckDetailsController">
     <children>
         <VBox alignment="CENTER" layoutX="138.0" layoutY="50.0" prefHeight="500.0" prefWidth="623.0" spacing="20">
             <children>
-                <Label text="My Pokemon Decks" textAlignment="CENTER">
+                <Label alignment="CENTER" fx:id="deckTitle" text="foo's Deck Details" textAlignment="CENTER">
                     <font>
                         <Font name="System Bold" size="24.0" />
                     </font>
                 </Label>
 
-                <ListView fx:id="availableDecksListView" prefHeight="350.0" prefWidth="297.0" />
+                <ListView fx:id="availableCardsListView" prefHeight="350.0" prefWidth="297.0" />
 
                 <HBox alignment="CENTER" spacing="20">
                     <children>
-                        <Button onAction="#handleViewDeckDetails" text="View Deck Details" />
-                        <Button onAction="#handleDeleteDeck" text="Delete Deck" />
+                        <Button onAction="#handleEditDeck" text="Edit Decks" />
                         <Button onAction="#handleBackToDashboard" text="Back to Dashboard" />
                     </children>
                 </HBox>

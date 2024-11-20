@@ -34,9 +34,9 @@ public class CreateDeckController {
     @FXML
     private TextField deckNameField;
     @FXML
-    private ListView<PokemonCard> availableCards;
+    private ListView<PokemonCard> availableCardsListView;
     @FXML
-    private ListView<PokemonCard> selectedCards;
+    private ListView<PokemonCard> selectedCardsListView;
 
     private ObservableList<PokemonCard> availableCardList;
     private ObservableList<PokemonCard> selectedCardList;
@@ -56,7 +56,7 @@ public class CreateDeckController {
             List<PokemonCard> cards = CardLoader.loadPokemonCardsFromJson(path.toString());
             availableCardList.addAll(cards);
 
-            availableCards.setCellFactory(pokemonCardListView -> new ListCell<PokemonCard>(){
+            availableCardsListView.setCellFactory(pokemonCardListView -> new ListCell<PokemonCard>(){
                 private ImageView imageView = new ImageView();
 
                 @Override
@@ -93,7 +93,7 @@ public class CreateDeckController {
                 }
             });
 
-            selectedCards.setCellFactory(pokemonCardListView -> new ListCell<PokemonCard>(){
+            selectedCardsListView.setCellFactory(pokemonCardListView -> new ListCell<PokemonCard>(){
                 private ImageView imageView = new ImageView();
 
                 @Override
@@ -131,8 +131,8 @@ public class CreateDeckController {
                 }
             });
 
-            availableCards.setItems(availableCardList);
-            selectedCards.setItems(selectedCardList);
+            availableCardsListView.setItems(availableCardList);
+            selectedCardsListView.setItems(selectedCardList);
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
@@ -140,11 +140,11 @@ public class CreateDeckController {
 
     @FXML
     private void handleAddCard() {
-        PokemonCard selected = availableCards.getSelectionModel().getSelectedItem();
+        PokemonCard selected = availableCardsListView.getSelectionModel().getSelectedItem();
         if (selected != null) {
             if (selectedCardList.size() < 20){
-                selectedCards.getItems().add(selected);
-                availableCards.getItems().remove(selected);
+                selectedCardsListView.getItems().add(selected);
+                availableCardsListView.getItems().remove(selected);
             }
             else {
                 showAlert("Deck penuh", "Tidak bisa melebihi 20 kartu per deck");
@@ -154,10 +154,10 @@ public class CreateDeckController {
 
     @FXML
     private void handleRemoveCard() {
-        PokemonCard selected = selectedCards.getSelectionModel().getSelectedItem();
+        PokemonCard selected = selectedCardsListView.getSelectionModel().getSelectedItem();
         if (selected != null) {
-            availableCards.getItems().add(selected);
-            selectedCards.getItems().remove(selected);
+            availableCardsListView.getItems().add(selected);
+            selectedCardsListView.getItems().remove(selected);
         }
     }
 
@@ -188,7 +188,7 @@ public class CreateDeckController {
 
             deckNameField.clear();
             selectedCardList.clear();
-            availableCardList.addAll(selectedCards.getItems());
+            availableCardList.addAll(selectedCardsListView.getItems());
         }
         try
         {
@@ -212,6 +212,22 @@ public class CreateDeckController {
         alert.setHeaderText(null);
         alert.setContentText(content);
         alert.showAndWait();
+    }
+
+    public void handleBackToDashboard(ActionEvent event) {
+        try
+        {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/dashboard.fxml"));
+            Parent dashboardRoot = loader.load();
+
+            Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+            Scene scene = new Scene(dashboardRoot);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            System.err.println("Error loading FXML: " + e.getMessage());
+        }
     }
 }
 
