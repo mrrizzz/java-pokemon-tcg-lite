@@ -124,6 +124,16 @@ public class EditDeckController extends BaseController {
 
     @FXML
     public void handleBackToDashboard(ActionEvent event) {
+        if (withoutSavingConfirmation()){
+            return;
+        }
         navigateToView(ViewManager.DASHBOARD_VIEW, event);
+    }
+
+    public void handleBackToPreviousPage(ActionEvent event) {
+        if (withoutSavingConfirmation()){
+            return;
+        }
+        navigateToView(ViewManager.VIEW_DECKS_VIEW, event);
     }
 }

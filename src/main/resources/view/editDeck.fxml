@@ -32,7 +32,8 @@
         </VBox>
     </HBox>
    <HBox alignment="CENTER" spacing="10" prefHeight="38.0" prefWidth="555.0">
-          <Button onAction="#handleBackToDashboard" text="Back To Dashboard" />
-         <Button onAction="#handleSaveDeck" text="Save Deck" />
+       <Button onAction="#handleBackToDashboard" text="Back To Dashboard" />
+       <Button onAction="#handleBackToPreviousPage" text="Previous Page" />
+       <Button onAction="#handleSaveDeck" text="Save Deck" />
    </HBox>
 </VBox>

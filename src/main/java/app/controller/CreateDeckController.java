@@ -19,7 +19,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class CreateDeckController extends BaseController implements NavigationAware {
+public class CreateDeckController extends BaseController implements initByFXMLRunTime {
     @FXML
     private TextField deckNameField;
     @FXML

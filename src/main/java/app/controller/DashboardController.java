@@ -8,7 +8,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class DashboardController extends BaseController implements NavigationAware {
+public class DashboardController extends BaseController implements initByFXMLRunTime {
     @FXML
     private Label welcomeLabel;
 

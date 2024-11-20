@@ -14,7 +14,7 @@ import javafx.scene.control.ListView;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ViewDecksController extends BaseController implements NavigationAware {
+public class ViewDecksController extends BaseController implements initByFXMLRunTime {
     @FXML
     private ListView<String> availableDecksListView;
     private ObservableList<String> availableDeckList;
@@ -69,7 +69,10 @@ public class ViewDecksController extends BaseController implements NavigationAwa
     public void handleDeleteDeck() {
         String selected = availableDecksListView.getSelectionModel().getSelectedItem();
         if (selected == null) return;
-
+        boolean commitDelete = showConfirmation("Deleting Selected Deck", "Are you sure want to delete your deck");
+        if (!commitDelete){
+            return;
+        }
         Deck deckToRemove = findDeckByName(selected);
         if (deckToRemove != null) {
             User user = UserManager.getInstance().getCurrentUser();

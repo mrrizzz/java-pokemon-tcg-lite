@@ -22,8 +22,8 @@ public abstract class BaseController {
             stage.show();
 
             Object controller = loader.getController();
-            if (controller instanceof NavigationAware) {
-                ((NavigationAware) controller).onNavigatedTo();
+            if (controller instanceof initByFXMLRunTime) {
+                ((initByFXMLRunTime) controller).onNavigatedTo();
             }
             return controller;
         } catch (IOException e) {
@@ -51,7 +51,7 @@ public abstract class BaseController {
         return result.isPresent() && result.get() == ButtonType.OK;
     }
 
-    protected boolean backToDashboardConfirmation() {
+    protected boolean withoutSavingConfirmation() {
         return !showConfirmation(
                 "Discard Without Saving",
                 "Are you sure you want to discard your deck?"

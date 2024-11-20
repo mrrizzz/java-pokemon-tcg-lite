@@ -1,5 +1,5 @@
 package app.controller;
 
-public interface NavigationAware {
+public interface initByFXMLRunTime {
     void onNavigatedTo();
 }

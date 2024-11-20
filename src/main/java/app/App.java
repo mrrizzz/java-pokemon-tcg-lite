@@ -30,11 +30,8 @@ public class App extends Application {
             stage.show();
 
         } catch (IOException e) {
-            // Handle FXML loading error
             System.err.println("Error loading FXML: " + e.getMessage());
-            // Bisa tambahkan alert dialog untuk user
         } catch (IllegalStateException e) {
-            // Handle resource loading errors (CSS/Image)
             System.err.println("Error loading resources: " + e.getMessage());
         }
     }
