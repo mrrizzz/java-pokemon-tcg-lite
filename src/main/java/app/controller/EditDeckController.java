@@ -31,7 +31,7 @@ public class EditDeckController extends DeckHandler {
 
         if (validateDeck(deckName)) {
             updateDeck();
-            navigateToView(ViewManager.DASHBOARD_VIEW, event);
+            navigateToView(ViewManager.DECK_DETAILS_VIEW, event);
         }
     }
 

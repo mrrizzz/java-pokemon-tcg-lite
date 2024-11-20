@@ -20,7 +20,6 @@ public class App extends Application {
             Parent root = loader.load();
 
             Scene scene = new Scene(root);
-//            scene.getStylesheets().add(getClass().getResource("/styles/main.css").toExternalForm());
 
             stage.setTitle("Pokemon TCG Lite");
             Image icon = new Image(getClass().getResource("/assets/icon.png").toString());
