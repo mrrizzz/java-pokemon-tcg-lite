@@ -22,14 +22,4 @@ public class UserManager {
     public User getCurrentUser() {
         return currentUser;
     }
-
-    public void login(String username) {
-        User newUser = new User();
-        newUser.setUsername(username);
-        setCurrentUser(newUser);
-    }
-
-    public void logout() {
-        setCurrentUser(null);
-    }
 }

@@ -4,7 +4,6 @@ package app.controller;
 import app.model.Deck;
 import app.model.User;
 import app.utils.UserManager;
-import app.utils.ViewManager;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -50,7 +49,7 @@ public class ViewDecksController extends BaseController implements PostFXMLIniti
 
         try {
             ViewDeckDetailsController controller = (ViewDeckDetailsController)
-                    navigateToView(ViewManager.DECK_DETAILS_VIEW, event);
+                    navigateToView(DECK_DETAILS_VIEW, event);
             controller.setDeck(selectedDeck);
         } catch (Exception e) {
             showError("Navigation Error", "Error viewing deck details: " + e.getMessage());
@@ -84,6 +83,6 @@ public class ViewDecksController extends BaseController implements PostFXMLIniti
 
     @FXML
     public void handleBackToDashboard(ActionEvent event) {
-        navigateToView(ViewManager.DASHBOARD_VIEW, event);
+        navigateToView(DASHBOARD_VIEW, event);
     }
 }

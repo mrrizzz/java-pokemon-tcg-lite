@@ -5,7 +5,7 @@ import java.util.List;
 
 public class User {
     private String username;
-    private List<Deck> decks;
+    private final List<Deck> decks;
 
     public User(){
         this.decks = new ArrayList<>();

@@ -1,5 +1,6 @@
 package app.controller;
 
+import app.utils.ViewManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -11,7 +12,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Optional;
 
-public abstract class BaseController {
+public abstract class BaseController implements ViewManager {
     protected Object navigateToView(String fxmlPath, ActionEvent event) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource(fxmlPath));

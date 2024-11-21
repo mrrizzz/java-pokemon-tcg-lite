@@ -8,8 +8,8 @@ import javafx.scene.image.ImageView;
 import javafx.util.Callback;
 
 public class PokemonCardCellFactory implements Callback<ListView<PokemonCard>, ListCell<PokemonCard>> {
-    private static final double IMAGE_WIDTH = 100;
-    private static final double IMAGE_HEIGHT = 140;
+    private static final int IMAGE_WIDTH = 100;
+    private static final int IMAGE_HEIGHT = 140;
 
     @Override
     public ListCell<PokemonCard> call(ListView<PokemonCard> pokemonCardListView) {

@@ -3,7 +3,6 @@ package app.controller;
 import app.model.Deck;
 import app.model.PokemonCard;
 import app.utils.PokemonCardCellFactory;
-import app.utils.ViewManager;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -44,7 +43,7 @@ public class ViewDeckDetailsController extends BaseController {
     public void handleEditDeck(ActionEvent event) {
         try {
             EditDeckController controller = (EditDeckController)
-                    navigateToView(ViewManager.EDIT_DECK_VIEW, event);
+                    navigateToView(EDIT_DECK_VIEW, event);
             controller.setDeck(deck);
         } catch (Exception e) {
             showError("Navigation Error", "Error navigating to edit deck: " + e.getMessage());
@@ -53,11 +52,11 @@ public class ViewDeckDetailsController extends BaseController {
 
     @FXML
     public void handleBackToPreviousPage(ActionEvent event) {
-        navigateToView(ViewManager.VIEW_DECKS_VIEW, event);
+        navigateToView(VIEW_DECKS_VIEW, event);
     }
 
     @FXML
     public void handleBackToDashboard(ActionEvent event) {
-        navigateToView(ViewManager.DASHBOARD_VIEW, event);
+        navigateToView(DASHBOARD_VIEW, event);
     }
 }

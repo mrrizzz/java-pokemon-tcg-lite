@@ -3,7 +3,6 @@ package app.controller;
 
 import app.model.User;
 import app.utils.UserManager;
-import app.utils.ViewManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -25,6 +24,6 @@ public class LoginController extends BaseController {
         currentUser.setUsername(username);
         UserManager.getInstance().setCurrentUser(currentUser);
 
-        navigateToView(ViewManager.DASHBOARD_VIEW, event);
+        navigateToView(DASHBOARD_VIEW, event);
     }
 }

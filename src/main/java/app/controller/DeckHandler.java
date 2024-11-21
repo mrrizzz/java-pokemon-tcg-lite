@@ -3,7 +3,6 @@ package app.controller;
 import app.model.PokemonCard;
 import app.utils.CardLoader;
 import app.utils.PokemonCardCellFactory;
-import app.utils.ViewManager;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -94,10 +93,10 @@ public abstract class DeckHandler extends BaseController {
     }
 
     @FXML
-    private void handleBackToDashboard(ActionEvent event) {
+    protected void handleBackToDashboard(ActionEvent event) {
         if (withoutSavingConfirmation()){
             return;
         }
-        navigateToView(ViewManager.DASHBOARD_VIEW, event);
+        navigateToView(DASHBOARD_VIEW, event);
     }
 }

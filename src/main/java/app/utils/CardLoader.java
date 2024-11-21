@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 public class CardLoader {
-
     public static List<PokemonCard> loadPokemonCardsFromJson(String jsonPath) {
         try {
             ObjectMapper mapper = new ObjectMapper();

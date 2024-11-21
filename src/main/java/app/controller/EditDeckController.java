@@ -1,7 +1,6 @@
 package app.controller;
 
 import app.model.Deck;
-import app.utils.ViewManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -31,13 +30,13 @@ public class EditDeckController extends DeckHandler {
 
         if (validateDeck(deckName)) {
             updateDeck();
-            navigateToView(ViewManager.DECK_DETAILS_VIEW, event);
+            navigateToView(DASHBOARD_VIEW, event);
         }
     }
 
     private void updateDeck() {
         deck.setName(deckNameField.getText());
-        selectedCardList.forEach(deck::addCards);
+        selectedCardList.forEach(deck::addCard);
         showInfo("Success", "Deck updated successfully");
     }
 
@@ -46,6 +45,6 @@ public class EditDeckController extends DeckHandler {
         if (withoutSavingConfirmation()){
             return;
         }
-        navigateToView(ViewManager.VIEW_DECKS_VIEW, event);
+        navigateToView(VIEW_DECKS_VIEW, event);
     }
 }
