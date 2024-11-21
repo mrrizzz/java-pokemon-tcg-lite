@@ -42,8 +42,7 @@ public class ViewDeckDetailsController extends BaseController {
     @FXML
     public void handleEditDeck(ActionEvent event) {
         try {
-            EditDeckController controller = (EditDeckController)
-                    navigateToView(EDIT_DECK_VIEW, event);
+            EditDeckController controller = (EditDeckController) navigateToView(EDIT_DECK_VIEW, event);
             controller.setDeck(deck);
         } catch (Exception e) {
             showError("Navigation Error", "Error navigating to edit deck: " + e.getMessage());

@@ -8,21 +8,24 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
+<?import javafx.scene.control.ComboBox?>
 <VBox alignment="CENTER" prefHeight="600.0" prefWidth="900.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.EditDeckController">
     <padding>
         <Insets bottom="20" left="20" right="20" top="20" />
     </padding>
-   <HBox prefHeight="0.0" prefWidth="860.0">
-      <children>
-         <Label text="Deck Title" />
-      </children>
-   </HBox>
+    <HBox prefHeight="0.0" prefWidth="860.0">
+        <Label text="Deck Title"/>
+    </HBox>
 
     <TextField fx:id="deckNameField" prefHeight="26.0" prefWidth="679.0" promptText="Enter Deck Name" />
 
     <HBox prefHeight="498.0" prefWidth="888.0" spacing="20">
         <VBox prefHeight="489.0" prefWidth="350.0" spacing="10">
             <Label text="Available Cards" />
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Filter by Type:" />
+                <ComboBox fx:id="typeFilterComboBox" prefWidth="150.0" />
+            </HBox>
             <ListView fx:id="availableCardsListView" prefHeight="470.0" prefWidth="350.0" />
         </VBox>
 

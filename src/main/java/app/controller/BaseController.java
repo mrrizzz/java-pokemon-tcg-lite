@@ -1,6 +1,5 @@
 package app.controller;
 
-import app.utils.ViewManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;

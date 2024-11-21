@@ -1,4 +1,4 @@
-package app.utils;
+package app.controller;
 
 public interface ViewManager {
     String DASHBOARD_VIEW = "/view/dashboard.fxml";

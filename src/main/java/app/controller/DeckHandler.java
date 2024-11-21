@@ -5,8 +5,10 @@ import app.utils.CardLoader;
 import app.utils.PokemonCardCellFactory;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
@@ -22,13 +24,17 @@ public abstract class DeckHandler extends BaseController {
     protected ListView<PokemonCard> availableCardsListView;
     @FXML
     protected ListView<PokemonCard> selectedCardsListView;
+    @FXML
+    protected ComboBox<String> typeFilterComboBox;
 
+    protected FilteredList<PokemonCard> filteredCards;
     protected ObservableList<PokemonCard> availableCardList;
     protected ObservableList<PokemonCard> selectedCardList;
 
     protected void initializeLists() {
         availableCardList = FXCollections.observableArrayList();
         selectedCardList = FXCollections.observableArrayList();
+        initializeTypeFilter();
     }
 
     protected void loadCards() {
@@ -41,17 +47,43 @@ public abstract class DeckHandler extends BaseController {
             List<PokemonCard> cards = CardLoader.loadPokemonCardsFromJson(path.toString());
             availableCardList.addAll(cards);
             availableCardList.removeAll(selectedCardList);
+            setupFiltering();
         } catch (Exception e) {
             showError("Loading Error", "Error loading Pokemon cards: " + e.getMessage());
         }
+    }
+
+    private void initializeTypeFilter() {
+        ObservableList<String> types = FXCollections.observableArrayList(
+                "All", "Fire", "Lightning", "Water", "Grass",
+                "Darkness", "Psychic", "Colorless", "Dragon"
+        );
+        typeFilterComboBox.setItems(types);
+        typeFilterComboBox.setValue("All");
+    }
+
+    private void setupFiltering() {
+        filteredCards = new FilteredList<>(availableCardList);
+        typeFilterComboBox.setOnAction(event -> filterCards());
+        availableCardsListView.setItems(filteredCards);
+    }
+
+    private void filterCards() {
+        String selectedType = typeFilterComboBox.getValue();
+
+        filteredCards.setPredicate(card -> {
+            if (selectedType == null || selectedType.equals("ALL")) {
+                return true;
+            }
+            String cardType = card.getTypes();
+            return cardType != null && cardType.equalsIgnoreCase(selectedType);
+        });
     }
 
     protected void setupListViews() {
         PokemonCardCellFactory cellFactory = new PokemonCardCellFactory();
         availableCardsListView.setCellFactory(cellFactory);
         selectedCardsListView.setCellFactory(cellFactory);
-
-        availableCardsListView.setItems(availableCardList);
         selectedCardsListView.setItems(selectedCardList);
     }
 
@@ -67,6 +99,7 @@ public abstract class DeckHandler extends BaseController {
         }
         return true;
     }
+
     @FXML
     protected abstract void handleSaveDeck(ActionEvent event);
 
@@ -94,7 +127,7 @@ public abstract class DeckHandler extends BaseController {
 
     @FXML
     protected void handleBackToDashboard(ActionEvent event) {
-        if (withoutSavingConfirmation()){
+        if (withoutSavingConfirmation()) {
             return;
         }
         navigateToView(DASHBOARD_VIEW, event);
